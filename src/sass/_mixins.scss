@@ -1,0 +1,9 @@
+@mixin radial-gradient($from, $to) {
+  background-color: $from;
+  background-image: -webkit-gradient(radial, 50% 100%,0,50% 100%,200, from($to),to($from));
+  background-image: -webkit-radial-gradient(50% 100%, $from, $to);
+  background-image: -moz-radial-gradient(50% 100%, $from, $to);
+  background-image: -o-radial-gradient(50% 100%, $from, $to);
+  background-image: -ms-radial-gradient(50% 100%, $from, $to);
+  background-image: radial-gradient(50% 100%, $from, $to);
+}
