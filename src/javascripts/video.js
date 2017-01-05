@@ -1,5 +1,4 @@
 (function ($) {
-  $(document).ready(function() {
     var video = document.querySelector('#marching-band')
     , container = document.querySelector('#vid-contain');
 
@@ -52,8 +51,8 @@
   };
 
   video.addEventListener('loadedmetadata', setVideoDimensions, false);
+  window.addEventListener('load', setVideoDimensions, false);
   window.addEventListener('resize', setVideoDimensions, false);
 
-  });
 
 }(jQuery));
