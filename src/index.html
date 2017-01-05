@@ -108,45 +108,41 @@
             <source src="/assets/vids/marching_band.mp4" type="video/mp4">
           </video>
           <div id="rsvp">
-            <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#rsvp-modal">Tell us you're coming!</button>
+            <button type="button" class="btn btn-lg btn-info" data-toggle="modal" data-target="#rsvp-modal">Click me!</button>
           </div>
         </div>
       </div>
     </main>
     <div class="container-fluid vertical-large stripe">
       <div class="row">
-        <div class="col-sm-offset-1 col-sm-3">
-          <img id="roses"  class="rellax" data-rellax-speed="-2" src="/assets/images/kublai.png" />
+        <div class="col-sm-5 col-lg-offset-1 col-lg-4">
+          <img id="kublai" class="rellax" data-rellax-speed="-12" src="/assets/images/kublai.png" />
         </div>
-        <div class="col-sm-offset-3 col-sm-4">
-          <h2 class="special rellax" data-rellax-speed="-1">Come to Portland</h2>
-          <img id="roses" class="rellax" data-rellax-speed="-2" src="/assets/images/roses.png" />
+        <div class="col-sm-offset-1 col-sm-6 col-lg-offset-2 col-lg-5">
+          <h2 class="special rellax" data-rellax-speed="-2">Come to Portland</h2>
         </div>
       </div>
+      <img id="roses" class="rellax" data-rellax-speed="+3" src="/assets/images/roses.png" />
     </div>
 
     <div class="modal fade" id="rsvp-modal" tabindex="-1" role="dialog" aria-labelledby="rsvp-label">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-body">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdU9mibCvw-tzXfR8t1gGKnqHW5ms2ME40Xzjw6mU0VCD72PQ/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">CLOSE</span></button>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdU9mibCvw-tzXfR8t1gGKnqHW5ms2ME40Xzjw6mU0VCD72PQ/viewform?embedded=true" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
         </div>
       </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs2IL0qGqM_n3hVIwvsjUPiqCo1vW8Djc&libraries=places&callback=initMap"
-    async defer></script>
-    <script src="javascripts/bootstrap/modal.js"></script>
     <script src="javascripts/map.js"></script>
     <script src="javascripts/rellax.min.js"></script>
-    <script src="javascripts/custom.js"></script>
-    <script>
-      var rellax = new Rellax('.rellax');
-    </script>
+    <script src="javascripts/bootstrap/modal.js"></script>
+    <script src="javascripts/video.js"></script>
+    <script src="javascripts/misc.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDs2IL0qGqM_n3hVIwvsjUPiqCo1vW8Djc&libraries=places&callback=initMap"
+    async defer></script>
   </body>
 </html>

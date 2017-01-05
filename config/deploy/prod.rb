@@ -9,4 +9,4 @@ server '104.236.178.10', user: 'kevin', roles: %w{app db web}
 set :deploy_to, '/var/www/kevaug'
 
 # set a branch for this release
-set :branch, 'prod'
+set :branch, 'master'
