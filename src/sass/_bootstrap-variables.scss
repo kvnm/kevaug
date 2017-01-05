@@ -33,10 +33,10 @@ $brand-primary:         $primary;
 //** Background color for `<body>`.
  $body-bg:               $brand-white;
 //** Global text color on `<body>`.
- $text-color:            $primary;
+ $text-color:            $gray-dark;
 
 //** Global textual link color.
- $link-color:            $secondary;
+ $link-color:            $primary;
 //** Link hover color set via `darken()` function.
  $link-hover-color:      darken($link-color, 15%);
 //** Link hover decoration.
