@@ -41,24 +41,26 @@ h4 {
     display: table;
     width: auto;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   h1 {
     color: $brand-white;
-    font-size: 7rem;
+    font-size: 6.7rem;
     display: inherit;
-    margin-right: 2rem;
+    margin-right: auto;
+    margin-left: auto;
     line-height: 6rem;
     margin-bottom: 1.2rem;
     margin-top: 2.3rem;
   }
 
   h2 {
-    font-size: 5.5rem;
-    display: inherit;
-    position: relative;
+    font-size: 5.2rem;
+    display: block;
+    position: static;
+    text-align: center;
     margin-top: 0;
     line-height: 6rem;
     margin-bottom: 3.2rem;
@@ -377,11 +379,22 @@ h4 {
   }
 
   .header {
+    .title-contain {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
     h1 {
       font-size: 11rem;
       line-height: 8rem;
+      margin-right: 2rem;
+      margin-left: 0px;
       margin-bottom: 3.2rem;
       margin-top: 4.3rem;
+    }
+    h2 {
+      display: inherit;
+      position: relative;
+      text-align: left;
     }
   }
   .date {
