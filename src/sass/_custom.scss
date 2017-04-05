@@ -308,6 +308,17 @@ h4 {
    }
 }
 
+.ice-cream {
+  border-left: 5px solid $secondary;
+  padding-left: 2rem;
+  font-size: 120%;
+  font-style: italic;
+  margin: 4rem 0;
+  @media (min-width: $screen-sm-min) {
+    width: 120%;
+  }
+}
+
 #vid-contain {
   overflow: hidden;
   height: 760px;
