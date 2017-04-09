@@ -7,5 +7,9 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
+@import "compass/css3/animation";
+@import "compass/css3/transform";
+
+@import "layout";
 @import "mixins";
 @import "custom";

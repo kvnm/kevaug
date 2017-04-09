@@ -7,3 +7,22 @@
   background-image: -ms-radial-gradient(50% 100%, $from, $to);
   background-image: radial-gradient(50% 100%, $from, $to);
 }
+
+// rem fallback - credits: http://zerosixthree.se/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// border radius
+
+@mixin border-radius($radius:.25em) {
+  border-radius: $radius;
+}
+
