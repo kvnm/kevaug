@@ -304,6 +304,7 @@ h4 {
   position: relative;
    &.vertical-large {
     padding-top: 12rem;
+    margin-top: 0px;
    }
 }
 
@@ -431,6 +432,10 @@ h4 {
       display: inline-block;
     }
   }
+}
+
+.accommodations-stripe {
+  margin-bottom: 12rem;
 }
 
 /* --------------------------------
@@ -584,11 +589,10 @@ Calendar
   @include clearfix;
 
   .cd-read-more, .cd-date {
-    display: inline-block;
+    display: block;
   }
 
   .cd-date {
-    float: left;
     padding: .8em 0;
     opacity: .7;
   }
@@ -601,7 +605,7 @@ Calendar
     height: 0;
     width: 0;
     border: 7px solid transparent;
-    border-right: 7px solid $tertiary;
+    border-right: 7px solid $brand-white;
   }
 
   @include MQ(L) {
@@ -614,10 +618,6 @@ Calendar
       left: 100%;
       border-color: transparent;
       border-left-color: $brand-white;
-    }
-
-    .cd-read-more {
-      float: left;
     }
 
     .cd-date {

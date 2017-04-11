@@ -9165,9 +9165,10 @@ h4 {
 /* line 305, ../sass/_custom.scss */
 .stripe.vertical-large {
   padding-top: 12rem;
+  margin-top: 0px;
 }
 
-/* line 310, ../sass/_custom.scss */
+/* line 311, ../sass/_custom.scss */
 .ice-cream {
   border-left: 5px solid #FFB42E;
   padding-left: 2rem;
@@ -9176,20 +9177,20 @@ h4 {
   margin: 4rem 0;
 }
 @media (min-width: 768px) {
-  /* line 310, ../sass/_custom.scss */
+  /* line 311, ../sass/_custom.scss */
   .ice-cream {
     width: 120%;
   }
 }
 
-/* line 321, ../sass/_custom.scss */
+/* line 322, ../sass/_custom.scss */
 #vid-contain {
   overflow: hidden;
   height: 760px;
   background: #edeae8;
   position: relative;
 }
-/* line 326, ../sass/_custom.scss */
+/* line 327, ../sass/_custom.scss */
 #vid-contain #marching-band {
   position: absolute;
   /* Vertical and Horizontal center*/
@@ -9200,7 +9201,7 @@ h4 {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* line 336, ../sass/_custom.scss */
+/* line 337, ../sass/_custom.scss */
 #vid-contain #rsvp {
   z-index: 2;
   position: relative;
@@ -9209,35 +9210,35 @@ h4 {
   text-align: center;
 }
 
-/* line 345, ../sass/_custom.scss */
+/* line 346, ../sass/_custom.scss */
 .modal-body {
   padding: 0px;
 }
-/* line 347, ../sass/_custom.scss */
+/* line 348, ../sass/_custom.scss */
 .modal-body iframe {
   width: 100%;
 }
-/* line 350, ../sass/_custom.scss */
+/* line 351, ../sass/_custom.scss */
 .modal-body button.close {
   position: absolute;
   top: 15px;
   right: 30px;
 }
 
-/* line 358, ../sass/_custom.scss */
+/* line 359, ../sass/_custom.scss */
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;
 }
 
-/* line 362, ../sass/_custom.scss */
+/* line 363, ../sass/_custom.scss */
 ::-webkit-scrollbar-thumb {
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
 }
 
-/* line 368, ../sass/_custom.scss */
+/* line 369, ../sass/_custom.scss */
 .modal-content {
   -o-border-radius: 0px;
   -webkit-border-radius: 0px;
@@ -9246,38 +9247,38 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  /* line 376, ../sass/_custom.scss */
+  /* line 377, ../sass/_custom.scss */
   #roses {
     bottom: 40px;
     width: 35%;
   }
 
-  /* line 381, ../sass/_custom.scss */
+  /* line 382, ../sass/_custom.scss */
   .primary-content {
     padding: 4rem 4rem 2rem 3rem;
   }
 
-  /* line 386, ../sass/_custom.scss */
+  /* line 387, ../sass/_custom.scss */
   .aside .section {
     padding-left: 6rem;
     padding-right: 3rem;
   }
-  /* line 390, ../sass/_custom.scss */
+  /* line 391, ../sass/_custom.scss */
   .aside .section:first-of-type {
     padding-top: 5rem;
   }
 
-  /* line 396, ../sass/_custom.scss */
+  /* line 397, ../sass/_custom.scss */
   .two-thirds-brick-row {
     margin-left: -10px;
   }
 
-  /* line 401, ../sass/_custom.scss */
+  /* line 402, ../sass/_custom.scss */
   .header .title-contain {
     padding-left: 30px;
     padding-right: 30px;
   }
-  /* line 405, ../sass/_custom.scss */
+  /* line 406, ../sass/_custom.scss */
   .header h1 {
     font-size: 11rem;
     line-height: 8rem;
@@ -9286,35 +9287,40 @@ h4 {
     margin-bottom: 3.2rem;
     margin-top: 4.3rem;
   }
-  /* line 413, ../sass/_custom.scss */
+  /* line 414, ../sass/_custom.scss */
   .header h2 {
     display: inherit;
     position: relative;
     text-align: left;
   }
 
-  /* line 419, ../sass/_custom.scss */
+  /* line 420, ../sass/_custom.scss */
   .date {
     font-size: 12rem;
   }
-  /* line 421, ../sass/_custom.scss */
+  /* line 422, ../sass/_custom.scss */
   .date .ensmall {
     position: static;
     bottom: 0px;
   }
 }
 @media (min-width: 992px) {
-  /* line 430, ../sass/_custom.scss */
+  /* line 431, ../sass/_custom.scss */
   .header h1, .header h2 {
     display: inline-block;
   }
 }
+/* line 437, ../sass/_custom.scss */
+.accommodations-stripe {
+  margin-bottom: 12rem;
+}
+
 /* --------------------------------
 
 Calendar
 
 -------------------------------- */
-/* line 442, ../sass/_custom.scss */
+/* line 447, ../sass/_custom.scss */
 .calendar-stripe.vertical-large {
   background: #ebebeb;
   margin-top: 0;
@@ -9323,14 +9329,14 @@ Calendar
   padding-bottom: 12rem;
 }
 
-/* line 450, ../sass/_custom.scss */
+/* line 455, ../sass/_custom.scss */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
   width: 90%;
   max-width: 1170px;
   margin: 0 auto;
 }
-/* line 455, ../sass/_custom.scss */
+/* line 460, ../sass/_custom.scss */
 .cd-container::after {
   /* clearfix */
   content: '';
@@ -9338,12 +9344,12 @@ Calendar
   clear: both;
 }
 
-/* line 462, ../sass/_custom.scss */
+/* line 467, ../sass/_custom.scss */
 #cd-timeline {
   position: relative;
   padding: 2em 0;
 }
-/* line 466, ../sass/_custom.scss */
+/* line 471, ../sass/_custom.scss */
 #cd-timeline::before {
   /* this is the vertical line */
   content: '';
@@ -9355,14 +9361,14 @@ Calendar
   background: #d1d1d1;
 }
 @media only screen and (min-width: 1170px) {
-  /* line 479, ../sass/_custom.scss */
+  /* line 484, ../sass/_custom.scss */
   #cd-timeline::before {
     left: 50%;
     margin-left: -2px;
   }
 }
 
-/* line 486, ../sass/_custom.scss */
+/* line 491, ../sass/_custom.scss */
 .cd-timeline-block {
   position: relative;
   margin: 2em 0;
@@ -9376,30 +9382,30 @@ Calendar
 .cd-timeline-block:after {
   clear: both;
 }
-/* line 491, ../sass/_custom.scss */
+/* line 496, ../sass/_custom.scss */
 .cd-timeline-block:first-child {
   margin-top: 0;
 }
-/* line 495, ../sass/_custom.scss */
+/* line 500, ../sass/_custom.scss */
 .cd-timeline-block:last-child {
   margin-bottom: 0;
 }
 @media only screen and (min-width: 1170px) {
-  /* line 486, ../sass/_custom.scss */
+  /* line 491, ../sass/_custom.scss */
   .cd-timeline-block {
     margin: 4em 0;
   }
-  /* line 502, ../sass/_custom.scss */
+  /* line 507, ../sass/_custom.scss */
   .cd-timeline-block:first-child {
     margin-top: 0;
   }
-  /* line 506, ../sass/_custom.scss */
+  /* line 511, ../sass/_custom.scss */
   .cd-timeline-block:last-child {
     margin-bottom: 0;
   }
 }
 
-/* line 512, ../sass/_custom.scss */
+/* line 517, ../sass/_custom.scss */
 .cd-timeline-img {
   position: absolute;
   top: 0;
@@ -9408,7 +9414,7 @@ Calendar
   height: 40px;
   border-radius: 50%;
 }
-/* line 521, ../sass/_custom.scss */
+/* line 526, ../sass/_custom.scss */
 .cd-timeline-img .glyphicon {
   display: block;
   font-size: 24px;
@@ -9419,16 +9425,16 @@ Calendar
   margin-top: -12px;
   color: #FFFFFE;
 }
-/* line 532, ../sass/_custom.scss */
+/* line 537, ../sass/_custom.scss */
 .cd-timeline-img.cd-event {
   background: #FFB42E;
 }
-/* line 536, ../sass/_custom.scss */
+/* line 541, ../sass/_custom.scss */
 .cd-timeline-img.cd-wedding {
   background: #F12C72;
 }
 @media only screen and (min-width: 1170px) {
-  /* line 512, ../sass/_custom.scss */
+  /* line 517, ../sass/_custom.scss */
   .cd-timeline-img {
     width: 60px;
     height: 60px;
@@ -9438,11 +9444,11 @@ Calendar
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
   }
-  /* line 550, ../sass/_custom.scss */
+  /* line 555, ../sass/_custom.scss */
   .cd-timeline-img .is-hidden {
     visibility: hidden;
   }
-  /* line 554, ../sass/_custom.scss */
+  /* line 559, ../sass/_custom.scss */
   .cd-timeline-img .bounce-in {
     visibility: visible;
     -moz-animation: cd-bounce-1 0.6s;
@@ -9505,7 +9511,7 @@ Calendar
     transform: scale(1);
   }
 }
-/* line 577, ../sass/_custom.scss */
+/* line 582, ../sass/_custom.scss */
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
@@ -9522,17 +9528,16 @@ Calendar
 .cd-timeline-content:after {
   clear: both;
 }
-/* line 586, ../sass/_custom.scss */
+/* line 591, ../sass/_custom.scss */
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  display: inline-block;
+  display: block;
 }
-/* line 590, ../sass/_custom.scss */
+/* line 595, ../sass/_custom.scss */
 .cd-timeline-content .cd-date {
-  float: left;
   padding: .8em 0;
   opacity: .7;
 }
-/* line 596, ../sass/_custom.scss */
+/* line 600, ../sass/_custom.scss */
 .cd-timeline-content::before {
   content: '';
   position: absolute;
@@ -9541,25 +9546,21 @@ Calendar
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid #F12C72;
+  border-right: 7px solid #FFFFFE;
 }
 @media only screen and (min-width: 1170px) {
-  /* line 577, ../sass/_custom.scss */
+  /* line 582, ../sass/_custom.scss */
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
     width: 45%;
   }
-  /* line 612, ../sass/_custom.scss */
+  /* line 616, ../sass/_custom.scss */
   .cd-timeline-content::before {
     top: 24px;
     left: 100%;
     border-color: transparent;
     border-left-color: #FFFFFE;
-  }
-  /* line 619, ../sass/_custom.scss */
-  .cd-timeline-content .cd-read-more {
-    float: left;
   }
   /* line 623, ../sass/_custom.scss */
   .cd-timeline-content .cd-date {
