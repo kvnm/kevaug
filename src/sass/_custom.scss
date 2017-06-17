@@ -65,7 +65,27 @@ h4 {
     line-height: 6rem;
     margin-bottom: 3.2rem;
   }
+
+  &.ceremony-header {
+    @include radial-gradient(lighten($tertiary, 5%), $tertiary);
+    .title-contain {
+      margin: 0;
+      display: block;
+    }
+  }
+  &.accommodations-header {
+    @include radial-gradient(lighten($primary, 5%), $primary);
+    .title-contain {
+      margin: 0;
+      display: block;
+    }
+  }
 }
+
+.brand-white, .brand-white a {
+  color: $brand-white;
+}
+
 .callout-contain {
   z-index: 9;
 }
@@ -126,6 +146,9 @@ h4 {
 
 .vertical-large {
   margin-top: 12rem;
+}
+.vertical-large-padding {
+  padding-top: 12rem;
 }
 .vertical-medium {
   margin-top: 9rem;
@@ -402,6 +425,12 @@ h4 {
     .title-contain {
       padding-left: 30px;
       padding-right: 30px;
+    }
+    &.ceremony-header, &.accommodations-header {
+      .title-contain {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
     }
     h1 {
       font-size: 11rem;
@@ -699,3 +728,30 @@ Calendar
   }
 }
 
+.extra-info-stripe {
+  color: $brand-white;
+  margin-top: 12rem;
+  a, h2 {
+    color: $brand-white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .info-box {
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  .ceremony {
+    @include radial-gradient(lighten($tertiary, 5%), $tertiary);
+    &:hover {
+      @include radial-gradient(lighten($tertiary, 10%), lighten($tertiary, 5%));
+    }
+  }
+  .accommodations {
+    @include radial-gradient(lighten($primary, 5%), $primary);
+    &:hover {
+      @include radial-gradient(lighten($primary, 10%), lighten($primary, 5%));
+    }
+  }
+}
