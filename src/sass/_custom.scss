@@ -571,6 +571,10 @@ Calendar
     background: $tertiary;
   }
 
+  &.cd-other {
+    background: $primary;
+  }
+
   @include MQ(L) {
     width: 60px;
     height: 60px;
@@ -753,5 +757,12 @@ Calendar
     &:hover {
       @include radial-gradient(lighten($primary, 10%), lighten($primary, 5%));
     }
+  }
+}
+
+.registry-stripe {
+  text-align: center;
+  a, a:hover {
+    text-decoration: none;
   }
 }
